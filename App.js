@@ -8,7 +8,7 @@ window.addEventListener("load", function () {
     width: "100%",
     duration: 2,
     stagger: 2,
-    repeat: 0,
+    repeat: -1,
   });
 
   gsap.to(".text-container h1", {
@@ -16,7 +16,7 @@ window.addEventListener("load", function () {
     top: 0,
     duration: 2.5,
     stagger: 2,
-    repeat: 0,
+    repeat: -1,
   });
 
   gsap.to(".text-container h1", {
@@ -24,6 +24,6 @@ window.addEventListener("load", function () {
     ease: Expo.easeInOut,
     stagger: 2,
     top: "-100%",
-    repeat: 0,
+    repeat: -1,
   });
 });
